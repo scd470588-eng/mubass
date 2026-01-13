@@ -1,0 +1,6 @@
+{
+  "name": "mubasss",
+  "description": "A simple application to help find rooms at MUBAS, starting with a welcome screen.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
