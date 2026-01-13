@@ -1,9 +1,3 @@
-
-
-
-
-
-
 export interface StepInstruction {
   description: string;
   imageUrl?: string;
@@ -167,7 +161,7 @@ const independentStepGroups: StepGroupData = {
   ],
   "NDIRANDE A FIRST FLOOR C": [
     { description: "Walk through the Ndirande A entrance.", imageUrl: undefined },
-    { description: "Take the steps up to the First Floor.", imageUrl: undefined },
+    { description: "Take the steps up to the First Floor.", imageUrl: "numbers/3.45.jpg" },
     { description: "Once you reach the First Floor, the center room you find will be 3.45.", imageUrl: "numbers/3.45.jpg" },
   ],
   "NDIRANDE A SECOND FLOOR L": [
@@ -418,7 +412,7 @@ const compositeStepGroups: StepGroupData = {
   "WET_Classroom_3back": [...independentStepGroups["WET_GROUND_FLOOR_RB"], { description: "Proceed down the corridor, Classroom 3 (WET3).", imageUrl: undefined }],
   "WET_Classroom_4back": [...independentStepGroups["WET_GROUND_FLOOR_LB"], { description: "Proceed down the corridor, Classroom 4 (WET4).", imageUrl: undefined }],
   "WET_Classroom_5back": [...independentStepGroups["WET_GROUND_FLOOR_RB"], { description: "At the end of the corridor, you will find Classroom 5 (WET5) on your left.", imageUrl: undefined }],
-  "WET_Classroom_6back": [...independentStepGroups["WET_GROUND_FLOOR_RB"], { description: "At the end of the corridor, you will find Classroom 6 (WET6) on your right", imageUrl: undefined }],
+  "WET_Classroom_6back": [...independentStepGroups["WET_GROUND_FLOOR_LB"], { description: "At the end of the corridor, you will find Classroom 6 (WET6) on your right", imageUrl: undefined }],
   "WET_Lab_1back": [...independentStepGroups["WET_SECOND_FLOORB"], { description: "On the second floor, you will find Laboratory 1 on your left.", imageUrl: undefined }],
   "WET_Lab_2back": [...independentStepGroups["WET_SECOND_FLOORB"], { description: "On the second floor, you will find Laboratory 2 on your right.", imageUrl: undefined }],
 
@@ -609,7 +603,7 @@ const compositeStepGroups: StepGroupData = {
   "NDIRANDE B 2.06": [...independentStepGroups["NDIRANDE B FIRST FLOOR R"], { description: "To your right side, you will find room 2.06", imageUrl: "numbers/2.06.jpg" }],
   "NDIRANDE B 2.07": [...independentStepGroups["NDIRANDE B FIRST FLOOR L"], { description: "To your left side, you will find room 2.07", imageUrl: "numbers/2.07.jpg" }],
   "NDIRANDE B 2.08": [...independentStepGroups["NDIRANDE B FIRST FLOOR R"], { description: "To your right side, you will find room 2.08", imageUrl: "numbers/2.08.jpg" }],
-  "NDIRANDE B 2.09": [...independentStepGroups["NDIRANDE B FIRST FLOOR L"], { description: "To your right side, you will find room 2.09", imageUrl: "numbers/2.09.jpg" }],
+  "NDIRANDE B 2.09": [...independentStepGroups["NDIRANDE B FIRST FLOOR L"], { description: "To your left side, you will find room 2.09", imageUrl: "numbers/2.09.jpg" }],
   "NDIRANDE B 2.10": [...independentStepGroups["NDIRANDE B FIRST FLOOR L"], { description: "To your left side, you will find room 2.10", imageUrl: "numbers/2.10.jpg" }],
   "NDIRANDE B 2.11": [...independentStepGroups["NDIRANDE B FIRST FLOOR L"], { description: "To your left side, you will find room 2.11", imageUrl: "numbers/2.11.jpg" }],
   "NDIRANDE B 2.12": [...independentStepGroups["NDIRANDE B FIRST FLOOR R"], { description: "To your right side, you will find room 2.12", imageUrl: "numbers/2.12.jpg" }],
@@ -635,7 +629,7 @@ const compositeStepGroups: StepGroupData = {
   "NDIRANDE B 3.06": [...independentStepGroups["NDIRANDE B SECOND FLOOR R"], { description: "To your right side, you will find room 3.06", imageUrl: "numbers/3.06.jpg" }],
   "NDIRANDE B 3.07": [...independentStepGroups["NDIRANDE B SECOND FLOOR L"], { description: "To your left side, you will find room 3.07", imageUrl: "numbers/3.07.jpg" }],
   "NDIRANDE B 3.08": [...independentStepGroups["NDIRANDE B SECOND FLOOR R"], { description: "To your right side, you will find room 3.08", imageUrl: "numbers/3.08.jpg" }],
-  "NDIRANDE B 3.09": [...independentStepGroups["NDIRANDE B SECOND FLOOR L"], { description: "To your right side, you will find room 3.09", imageUrl: "numbers/3.09.jpg" }],
+  "NDIRANDE B 3.09": [...independentStepGroups["NDIRANDE B SECOND FLOOR L"], { description: "To your left side, you will find room 3.09", imageUrl: "numbers/3.09.jpg" }],
   "NDIRANDE B 3.10": [...independentStepGroups["NDIRANDE B SECOND FLOOR R"], { description: "To your right side, you will find room 3.10", imageUrl: "numbers/3.10.jpg" }],
   "NDIRANDE B 3.11": [...independentStepGroups["NDIRANDE B SECOND FLOOR L"], { description: "To your left side, you will find room 3.11", imageUrl: "numbers/3.11.jpg" }],
   "NDIRANDE B 3.12": [...independentStepGroups["NDIRANDE B SECOND FLOOR R"], { description: "To your right side, you will find room 3.12", imageUrl: "numbers/3.12.jpg" }],
