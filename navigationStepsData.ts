@@ -7,7 +7,7 @@ export interface PredefinedStepData {
 }
 
 export const predefinedNavigationSteps: { [key: number]: PredefinedStepData } = {
-  "1": { description: "From the Library entrance, walk straight and go down the steps.", imageUrl: undefined },
+  "1": { description: "From the Library entrance, walk straight and go down the steps.", imageUrl: "https://image2url.com/images/1765057229844-059286c8-c9c1-4cb7-8229-a51a92390eac.jpg" },
   "-1": { description: "Go up the steps and walk towards the Library entrance.", imageUrl: undefined },
   "2": { description: "Walk straight toward the MLT entrance, which is on your right-hand side.", imageUrl: undefined },
   "-2": { description: "Walk towards the Library—you will see a sign labeled “Library.”", imageUrl: undefined },
